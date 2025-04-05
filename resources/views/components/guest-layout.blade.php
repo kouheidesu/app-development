@@ -1,4 +1,13 @@
 <!-- resources/views/components/guest-layout.blade.php -->
-<div class="min-h-screen bg-gray-100">
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Guest Layout</title>
+</head>
+
+<body>
     {{ $slot }}
-</div>
+</body>
+
+</html>
