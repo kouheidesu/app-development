@@ -5,6 +5,8 @@
 <head>
     <title>Guest Layout</title>
     <p>test</p>
+    <p>test</p>
+
 </head>
 
 <body>
