@@ -4,6 +4,7 @@
 
 <head>
     <title>Guest Layout</title>
+    <p>test</p>
 </head>
 
 <body>
