@@ -1,0 +1,25 @@
+# OSやエディタ関連
+.DS_Store
+*.log
+*.env
+.env.*
+node_modules/
+vendor/
+storage/logs/
+storage/framework/sessions/
+storage/framework/cache/
+.idea/
+.vscode/
+.git/
+.gitignore
+npm-debug.log
+yarn-error.log
+
+# ビルド生成物
+/public/hot
+/public/storage
+/public/mix-manifest.json
+
+# その他
+docker-compose.yml
+tests/
