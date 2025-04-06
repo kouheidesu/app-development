@@ -5,6 +5,11 @@ use App\Http\Controllers\PostController;
 
 use Illuminate\Support\Facades\Route;
 
+Route::get('/debug-port', function () {
+    return 'PORT: ' . getenv('PORT');
+});
+
+
 Route::get('/', function () {
     return view('welcome');
 });
