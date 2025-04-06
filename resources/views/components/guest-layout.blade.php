@@ -1,16 +1,5 @@
-<!-- resources/views/components/guest-layout.blade.php -->
-<!DOCTYPE html>
-<html>
+@extends('layouts.app')
 
-<head>
-    <title>Guest Layout</title>
-    <p>test</p>
-    <p>test</p>
-
-</head>
-
-<body>
-    {{ $slot }}
-</body>
-
-</html>
+@section('content')
+<p>Hello, World!</p>
+@endsection
