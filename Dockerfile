@@ -10,8 +10,6 @@ RUN apt-get update && apt-get install -y unzip libzip-dev libonig-dev \
 COPY . .
 
 RUN composer install --no-dev --optimize-autoloader
-RUN php artisan config:cache
-RUN php artisan view:cache
 
 ENV PORT=8080
 EXPOSE 8080
