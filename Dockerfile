@@ -18,8 +18,6 @@ COPY . .
 RUN composer install --no-dev --optimize-autoloader
 
 # 公開ディレクトリとポート
-ENV PORT=8000
-EXPOSE 8000
-
-# アプリ起動
-CMD ["sh", "-c", "php -S 0.0.0.0:$PORT -t public"]
+ENV PORT=8080
+EXPOSE 8080
+CMD ["php", "-S", "0.0.0.0:8080", "-t", "public"]
