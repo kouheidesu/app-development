@@ -4,6 +4,7 @@ namespace App\Providers;
 
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Support\Facades\Blade;
+use App\View\Components\GuestLayout;
 
 class AppServiceProvider extends ServiceProvider
 {
@@ -21,6 +22,6 @@ class AppServiceProvider extends ServiceProvider
     public function boot(): void
     {
         // guest-layout コンポーネントの明示登録
-        Blade::component('components.guest-layout', 'guest-layout');
+        Blade::component(GuestLayout::class, 'guest-layout');
     }
 }
